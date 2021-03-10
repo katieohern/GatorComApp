@@ -1,38 +1,102 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    text-align: center;
+    background-color: #fffdf6;
+    min-height: 100vh;
+    min-width: 100vh;
+    color: black;
+    font-family: 'Dosis', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    margin-left: 15px;
+    height: 10%;
+    align-items: baseline;
+    width: 100%;
+    padding-top: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-title {
+    font-size: calc(36px + 2vmin);
+    height: 10%;
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-logo {
+    margin-left: 7px;
+    height: calc(10px + 3%);
+    width: calc(10px + 3%);
+}
+
+.App-subheader {
+    margin-top: 1%;
+}
+
+.App-subheader-text {
+    font-size: calc(32px + 2vmin);
+}
+
+.App-subheader-switchbutton-english {
+    margin-top: 2.5%;
+    background-color: #5274cd;
+    border: #5274cd;
+}
+
+.App-subheader-switchbutton-english:hover {
+    background-color: #4768bb;
+    border: #4768bb;
+}
+
+.App-subheader-switchbutton-spanish {
+    margin-top: 1.5%;
+    background-color: #ff7a41;
+    border: #ff7a41;
+}
+
+.App-subheader-switchbutton-spanish:hover {
+    background-color: #ff6d2e;
+    border: #ff6d2e;
+}
+
+.App-chatbox {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.App-chatbox-card {
+    width: 55%;
+    margin: auto;
+    border: 1px solid black;
+    height: 425px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.App-exitbutton {
+    background-color: #e84855;
+    border: #e84855;
+    margin: 15px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.App-exitbutton:hover {
+    background-color: #db414e;
+    border: #db414e;
+}
+.App-exitbutton::selection {
+    background-color: #db414e;
+    border: #db414e;
+}
+
+.App-exitbutton-label {
+    margin-left: 4px;
+}
+
+.test {
+    text-align: right;
+}
+
+.App-exitbutton-group {
+    display: flex;
+    align-items: center;
 }
