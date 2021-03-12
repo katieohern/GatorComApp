@@ -8,17 +8,18 @@
 }
 
 .App-header {
-    margin-left: 15px;
     height: 10%;
     align-items: baseline;
     width: 100%;
     padding-top: 15px;
+    padding-left: 15px;
 }
 
 .App-title {
     font-size: calc(36px + 2vmin);
     height: 10%;
     display: flex;
+    color: #343a40;
 }
 
 .App-logo {
@@ -39,6 +40,9 @@
     margin-top: 2.5%;
     background-color: #5274cd;
     border: #5274cd;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
 }
 
 .App-subheader-switchbutton-english:hover {
@@ -47,9 +51,12 @@
 }
 
 .App-subheader-switchbutton-spanish {
-    margin-top: 1.5%;
+    margin-top: 2.5%;
     background-color: #ff7a41;
     border: #ff7a41;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
 }
 
 .App-subheader-switchbutton-spanish:hover {
@@ -78,12 +85,9 @@
     border-radius: 5px;
     color: white;
     padding: 5px;
+    width: 50px;
 }
 .App-exitbutton:hover {
-    background-color: #db414e;
-    border: #db414e;
-}
-.App-exitbutton::selection {
     background-color: #db414e;
     border: #db414e;
 }
@@ -92,11 +96,130 @@
     margin-left: 4px;
 }
 
-.test {
+.justify-right {
     text-align: right;
 }
 
 .App-exitbutton-group {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.App-message-box {
+    color: black;
+    margin: 0px 10px;
+    text-align: left;
+    height: 290px;
+    padding: 10px;
+    overflow-y: auto;
+    align-items: baseline;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.App-message-box-text {
+    margin: 25px 0px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(134, 134, 134, 0.61);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.row {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+.App-message-group {
+    margin: 15px 0;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+
+.App-textbox {
+    border-top: 1px solid black;
+    align-items: baseline;
+    padding-top: 10px;
+    flex-wrap: nowrap;
+}
+
+.App-textbox-button-eng {
+    background-color: #ff7a41;
+    border: #ff7a41;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.App-textbox-button-span {
+    background-color: #5274cd;
+    border: #5274cd;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.App-message-box-user-eng {
+    color: #ff7a41;
+    width: 95px;
+}
+
+.App-message-box-user-span {
+    color: #5274cd;
+    width: 95px;
+}
+
+.App-message-box-user-span-1 {
+    color: #5274cd;
+    width: 85px;
+}
+
+.App-message-box-user-eng-1 {
+    color: #ff7a41;
+    width: 85px;
+}
+
+.App-message-box-yuh {
+    padding-left: 5px;
+}
+
+.App-message-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0px 5px;
+    cursor: pointer;
+    color: #7a7d81;
+}
+
+.icon:hover {
+    color: #88abff;
+}
+
+.reaction {
+    margin: 0px 5px;
+    color: #505358;
+}
+
+.english {
+    color: #5274cd;
+}
+
+.spanish {
+    color: #ff7a41;
 }
