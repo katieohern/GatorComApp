@@ -130,10 +130,10 @@ function App() {
         <div className="App-chatbox-card">
         <div className="justify-right">
           <button className="App-exitbutton">
-              <div className="App-exitbutton-group">
+              <a href="https://www.qualtrics.com/blog/create-online-survey/" className="App-exitbutton-group">
               <FontAwesomeIcon icon={faTimes} />
               {isEnglish ? <div className="App-exitbutton-label"><b>End</b></div> : <div className="App-exitbutton-label"><b>Fin</b></div>}
-              </div>
+              </a>
           </button>
         </div>
         <div className="App-message-box">
