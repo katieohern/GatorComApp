@@ -17,9 +17,9 @@ This application requires a Google Translate API key which you can obtain by
 
 ### Link API Key to GatorCom
 1. In the project directiory, create a `.env` file
-2. Add the following line of code to this file substituting `{APIKEY}` with your generated Google Cloud Translation API key
+2. Add the following line of code to this file substituting `<APIKEY>` with your generated Google Cloud Translation API key
 ```
-REACT_APP_GOOGLE_TRANSLATE_API_KEY={APIKEY}
+REACT_APP_GOOGLE_TRANSLATE_API_KEY=<APIKEY>
 ```
 
 ### Running GatorCom
