@@ -5,7 +5,7 @@ GatorCom is a web application that supports translating a conversation between a
 ## Getting Started
 ### Installation
 1. Clone the git repository
-2. Navigate into the project directory using the terminal with `cd gator-com-app`
+2. Navigate into the project directory using the terminal with `cd GatorComApp`
 3. Run `npm install` 
 
 ### Google Translate API
